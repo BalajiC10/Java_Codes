@@ -1,0 +1,24 @@
+package com.easyproblemsStrings;
+
+public class LeftRotation {
+public static void main(String[] args) {
+	
+		int arr[]= {1,2,3,4,5,6,7};
+		int k=3;
+		
+		int temp []= new int[k];
+		for(int i=0; i<temp.length; i++) {
+			temp[i]=arr[i];
+		}
+		for(int j=0; j<arr.length-k; j++) {
+			arr[j]=arr[j+k];
+			System.out.println(arr[j]);
+		}
+		for(int i=arr.length-k; i<arr.length; i++) {
+			arr[i]=temp[i-k-1];
+		}
+		for(int cm:arr) {
+		System.out.print(cm);
+		}
+}
+}

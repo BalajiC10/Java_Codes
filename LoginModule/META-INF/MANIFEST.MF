@@ -1,0 +1,12 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: LoginModule
+Bundle-SymbolicName: LoginModule
+Bundle-Version: 1.0.0.qualifier
+Bundle-ClassPath: LoginModule.jar,
+ BA20463124/Downloads/mysql-connector-j-8.0.33 2/mysql-connector-j-8.0.33.jar
+Automatic-Module-Name: LoginModule
+Bundle-RequiredExecutionEnvironment: JavaSE-17
+Export-Package: com.dao,
+ com.login,
+ com.logout
