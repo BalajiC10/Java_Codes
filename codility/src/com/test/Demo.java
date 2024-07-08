@@ -1,24 +1,24 @@
-// package com.test;
-
-// public class Demo {
-// 	 int count=0;
+ package com.test;
+ class Demo {
 	 
-//      for(int i=1; i<input2;i++){
-//          count +=countocc(i,count);
-//      }
+	 int count=0;
+	 
+      for(int i=1; i<input2;i++){
+         count +=countocc(i,count);
+     }
      
-//      return count;
+     return count;
 
 
-//  public int countocc(int num,int digit){
-//      int count=0;
-//      while(num>0){
-//          if(num%10==digit){
-//              count++;
-//          }
-//          num/=10;
-//      }
-//      return count;
-//  }
-//  }
-// }}
+ public int countocc(int num,int digit){
+     int count=0;
+      while(num>0){
+          if(num%10==digit){
+              count++;
+          }
+          num/=10;
+     }
+     return count;
+  }
+  }
+ }}

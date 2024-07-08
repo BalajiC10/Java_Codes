@@ -6,7 +6,7 @@ public static void main(String[] args) {
 	CountryMap cp = new CountryMap();
 	
 	cp.saveCountryCapital("India", "Maharashtra");
-	cp.saveCountryCapital("Japan"	,"tokyo");
+	cp.saveCountryCapital("Japan","tokyo");
 	cp.saveCountryCapital("USA", "Washington D.C");
 	
 	

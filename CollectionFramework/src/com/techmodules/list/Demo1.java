@@ -7,7 +7,6 @@ public class Demo1 {
 		
 		List list= new ArrayList();
 		
-		
 			list.add(30);
 			list.add(1.2f);
 			list.add(3.123D);

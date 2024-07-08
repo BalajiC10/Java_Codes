@@ -8,7 +8,7 @@ public static void main(String[] args) {
 	demo.addCountry("India");
 	demo.addCountry("England");
 	demo.addCountry("China");
-	demo.addCountry("Shrilanka");
+	demo.addCountry("Shri-lanka");
 	
 	System.out.println("India: "+ demo.findCountry("India"));
 	System.out.println("China: "+ demo.findCountry("China"));

@@ -9,8 +9,7 @@ public void registerUser(String username, String userCountry) throws InvalidCoun
 	}
 	else {
 		System.out.println("User Registration done succesfully");
-		
-	}
+		}
 	
 }
 

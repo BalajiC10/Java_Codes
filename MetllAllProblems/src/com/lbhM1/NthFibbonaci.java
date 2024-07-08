@@ -8,7 +8,6 @@ public  static void main(String[] args) {
 		int a=0,b=1,c;
 		for(int i=1; i<50; i++) {
 			c=a+b;
-			
 			arr[i]=c;
 			a=b;
 			b=c;

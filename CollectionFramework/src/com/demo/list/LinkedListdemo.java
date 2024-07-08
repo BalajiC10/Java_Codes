@@ -7,6 +7,11 @@ public static void main(String[] args) {
 	li.add(345);
 	li.add(566);
 	
+	Iterator itr = li.iterator();
+	
+	while(itr.hasNext()){
+		System.out.println(itr.next());
+	}
 	
 }
 }

@@ -2,7 +2,7 @@ package com.proc;
 
 public class rotationofEach {
 public static void main(String[] args) {
-	String str = "abcd";
+	String str = "abba";
 	String temp = str+str;
 	String check = "badc";
 	if(temp.contains(check)) {
